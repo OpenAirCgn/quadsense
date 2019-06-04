@@ -1,4 +1,4 @@
-update=2019 February 22, Friday 11:24:27
+update=2019 May 23, Thursday 23:57:35
 version=1
 last_client=kicad
 [pcbnew]
@@ -31,3 +31,13 @@ LibDir=
 [eeschema/libraries]
 LibName1=Quadsense-rescue
 LibName2=/Users/matthias/Development/Kicad/Libraries/everykey
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
