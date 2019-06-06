@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /Users/matthias/Development/Kicad/Quadsense/Quadsense.sch)
-    (date "2019 June 03, Monday 23:12:13")
+    (date "2019 June 05, Wednesday 17:52:44")
     (tool "Eeschema 4.0.7")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -302,7 +302,13 @@
       (footprint everykey:0603)
       (libsource (lib everykey) (part C))
       (sheetpath (names /) (tstamps /))
-      (tstamp 5CEE62E8)))
+      (tstamp 5CEE62E8))
+    (comp (ref LOGO1)
+      (value Logo)
+      (footprint Logo:Logo)
+      (libsource (lib everykey) (part Logo))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5CF7FDEB)))
   (libparts
     (libpart (lib everykey) (part ADC_LTC2497)
       (description "8 / 16 channel ADC 16 bit, 15SPS, I2C")
@@ -469,6 +475,12 @@
         (pin (num 3) (name EN) (type input))
         (pin (num 4) (name adj/nc) (type passive))
         (pin (num 5) (name VOUT) (type power_out))))
+    (libpart (lib everykey) (part Logo)
+      (footprints
+        (fp LOGO))
+      (fields
+        (field (name Reference) LOGO)
+        (field (name Value) Logo)))
     (libpart (lib everykey) (part NMOS_GSD)
       (description "N-channel FET, 1:G, 2:S, 3:D")
       (footprints
